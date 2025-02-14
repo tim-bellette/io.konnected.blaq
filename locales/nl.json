@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Instellingen bijgewerkt, opnieuw verbinden...",
+    "found": "Apparaat gevonden, verbinding maken...",
+    "addressChanged": "Apparaatadres gewijzigd, opnieuw verbinden...",
+    "lastSeenChanged": "Apparaat niet langer beschikbaar, opnieuw verbinden..."
+  },
+  "unauthorised": "Ongeautoriseerd. Controleer uw gebruikersnaam en wachtwoord"
+}

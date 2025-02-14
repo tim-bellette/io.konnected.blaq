@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Einstellungen aktualisiert, verbinde erneut...",
+    "found": "Gerät gefunden, verbinde...",
+    "addressChanged": "Geräteadresse geändert, verbinde erneut...",
+    "lastSeenChanged": "Gerät nicht mehr verfügbar, verbinde erneut..."
+  },
+  "unauthorised": "Nicht autorisiert. Bitte überprüfen Sie Ihren Benutzernamen und Ihr Passwort"
+}

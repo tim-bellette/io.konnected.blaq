@@ -1,0 +1,38 @@
+'use strict';
+
+export const enum DeviceEvents {
+  MotionSensor = 'binary_sensor-motion',
+  ObstructionSensor = 'binary_sensor-obstruction',
+  MotorSensor = 'binary_sensor-motor',
+  WallButtonSensor = 'binary_sensor-wall_button',
+  SyncedSensor = 'binary_sensor-synced',
+  GarageDoorCover = 'cover-garage_door',
+  WarningLedLight = 'light-warning_led',
+  BlueStatusLedLight = 'light-blue_status_led',
+  GarageLight = 'light-garage_light',
+  UptimeSensor = 'sensor-uptime',
+  WifiSignalStrength = 'sensor-wifi_signal',
+  WifiSignalPercentage = 'sensor-wifi_signal__',
+  GarageOpeningsSensor = 'sensor-garage_openings',
+  HeapFreeSensor = 'sensor-heap_free',
+  LearnSwitch = 'switch-learn',
+  ToggleOnlySwitch = 'switch-toggle_only',
+  RestartButton = 'button-restart',
+  PlaySoundButton = 'button-play_sound',
+  PreCloseWarningButton = 'button-pre-close_warning',
+  FactoryResetButton = 'button-factory_reset',
+  ResetDoorTimingsButton = 'button-reset_door_timings',
+  ReSyncButton = 'button-re-sync',
+  DeviceId = 'text_sensor-device_id',
+  EspHomeVersionTextSensor = 'text_sensor-esphome_version',
+  IPAddressTextSensor = 'text_sensor-ip_address',
+  RebootReasonTextSensor = 'text_sensor-reboot_reason',
+  OpeningDurationNumber = 'number-opening_duration',
+  ClosingDurationNumber = 'number-closing_duration',
+  ClientIdNumber = 'number-client_id',
+  RollingCodeNumber = 'number-rolling_code',
+  SecurityProtocolSelect = 'select-security__protocol',
+  RemoteLock = 'lock-lock',
+}
+
+export default DeviceEvents;

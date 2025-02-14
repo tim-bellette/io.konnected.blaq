@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Paramètres mis à jour, reconnexion...",
+    "found": "Appareil trouvé, connexion...",
+    "addressChanged": "Adresse de l'appareil modifiée, reconnexion...",
+    "lastSeenChanged": "Appareil plus disponible, reconnexion..."
+  },
+  "unauthorised": "Non autorisé. Veuillez vérifier votre nom d'utilisateur et votre mot de passe"
+}

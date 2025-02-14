@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Inställningar uppdaterade, ansluter igen...",
+    "found": "Enhet hittad, ansluter...",
+    "addressChanged": "Enhetens adress har ändrats, ansluter igen...",
+    "lastSeenChanged": "Enheten är inte längre tillgänglig, ansluter igen..."
+  },
+  "unauthorised": "Obehörig. Kontrollera ditt användarnamn och lösenord"
+}

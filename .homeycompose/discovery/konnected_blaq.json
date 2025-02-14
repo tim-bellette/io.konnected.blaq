@@ -1,0 +1,26 @@
+{
+  "type": "mdns-sd",
+  "mdns-sd": {
+    "name": "konnected",
+    "protocol": "tcp"
+  },
+  "id": "{{txt.mac}}",
+  "conditions": [
+    [
+      {
+        "field": "txt.project_name",
+        "match": {
+          "type": "string",
+          "value": "konnected.garage-door"
+        }
+      },
+      {
+        "field": "txt.web_api",
+        "match": {
+          "type": "string",
+          "value": "true"
+        }
+      }
+    ]
+  ]
+}

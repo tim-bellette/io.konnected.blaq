@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Configuraciones actualizadas, reconectando...",
+    "found": "Dispositivo encontrado, conectando...",
+    "addressChanged": "Dirección del dispositivo cambiada, reconectando...",
+    "lastSeenChanged": "Dispositivo ya no disponible, reconectando..."
+  },
+  "unauthorised": "No autorizado. Por favor, verifique su nombre de usuario y contraseña"
+}

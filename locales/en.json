@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Settings updated, reconnecting...",
+    "found": "Device found, connecting...",
+    "addressChanged": "Device address changed, reconnecting...",
+    "lastSeenChanged": "Device no longer available, reconnecting..."
+  },
+  "unauthorised": "Unauthorised. Please check your username and password."
+}

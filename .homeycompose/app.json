@@ -1,0 +1,60 @@
+{
+  "id": "io.konnected.blaq",
+  "version": "1.0.0",
+  "compatibility": ">=12.3.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Konnected",
+    "nl": "Konnected",
+    "de": "Konnected",
+    "fr": "Konnected",
+    "it": "Konnected",
+    "sv": "Konnected",
+    "no": "Konnected",
+    "es": "Konnected",
+    "da": "Konnected",
+    "ru": "Konnected",
+    "pl": "Konnected",
+    "ko": "Konnected"
+  },
+  "description": {
+    "en": "Adds support for the Konnected blaQ garage door opener.",
+    "nl": "Voegt ondersteuning toe voor de Konnected blaQ garagedeuropener.",
+    "de": "Fügt Unterstützung für den Konnected blaQ Garagentoröffner hinzu.",
+    "fr": "Ajoute la prise en charge de l'ouvre-porte de garage Konnected blaQ.",
+    "it": "Aggiunge il supporto per l'apriporta del garage Konnected blaQ.",
+    "sv": "Lägger till stöd för Konnected blaQ garageportöppnare.",
+    "no": "Legger til støtte for Konnected blaQ garasjeportåpner.",
+    "es": "Añade soporte para el abridor de puertas de garaje Konnected blaQ.",
+    "da": "Tilføjer support til Konnected blaQ garageportåbner.",
+    "ru": "Добавляет поддержку для гаражного открывателя Konnected blaQ.",
+    "pl": "Dodaje wsparcie dla otwieracza drzwi garażowych Konnected blaQ.",
+    "ko": "Konnected blaQ 차고문 개폐기를 지원합니다."
+  },
+  "category": "security",
+  "permissions": [],
+  "brandColor": "#5476FB",
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Tim Bellette",
+    "email": "tim-bellette@users.noreply.github.com"
+  },
+  "contributing": {
+    "donate": {
+      "githubSponsors": {
+        "username": "tim-bellette"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/tim-bellette/io.konnected.blaq/issues"
+  },
+  "source": "https://github.com/tim-bellette/io.konnected.blaq"
+}

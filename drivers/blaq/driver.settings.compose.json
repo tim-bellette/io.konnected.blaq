@@ -1,0 +1,59 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Local Web API Details",
+      "nl": "Lokale Web API Details",
+      "de": "Details zur lokalen Web-API",
+      "fr": "Détails de l'API web locale",
+      "it": "Dettagli dell'API web locale",
+      "sv": "Detaljer för lokal webb-API",
+      "no": "Detaljer for lokal web-API",
+      "es": "Detalles de la API web local",
+      "da": "Detaljer for lokal web-API",
+      "ru": "Детали локального веб-API",
+      "pl": "Szczegóły lokalnego interfejsu API",
+      "ko": "로컬 웹 API 세부 정보"
+    },
+    "children": [
+      {
+        "id": "username",
+        "type": "text",
+        "label": {
+          "en": "Username",
+          "nl": "Gebruikersnaam",
+          "de": "Benutzername",
+          "fr": "Nom d'utilisateur",
+          "it": "Nome utente",
+          "sv": "Användarnamn",
+          "no": "Brukernavn",
+          "es": "Nombre de usuario",
+          "da": "Brugernavn",
+          "ru": "Имя пользователя",
+          "pl": "Nazwa użytkownika",
+          "ko": "사용자 이름"
+        },
+        "value:": ""
+      },
+      {
+        "id": "password",
+        "type": "text",
+        "label": {
+          "en": "Password",
+          "nl": "Wachtwoord",
+          "de": "Passwort",
+          "fr": "Mot de passe",
+          "it": "Password",
+          "sv": "Lösenord",
+          "no": "Passord",
+          "es": "Contraseña",
+          "da": "Adgangskode",
+          "ru": "Пароль",
+          "pl": "Hasło",
+          "ko": "비밀번호"
+        },
+        "value": ""
+      }
+    ]
+  }
+]

@@ -1,2 +1,3 @@
-# io.konnected.blaq
-Konnected blaQ garage door opener driver for Homey
+# blaQ
+
+Adds support for the Konnected blaQ garage door opener.

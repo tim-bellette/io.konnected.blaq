@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Indstillinger opdateret, genopretter forbindelse...",
+    "found": "Enhed fundet, opretter forbindelse...",
+    "addressChanged": "Enhedsadresse ændret, genopretter forbindelse...",
+    "lastSeenChanged": "Enhed ikke længere tilgængelig, genopretter forbindelse..."
+  },
+  "unauthorised": "Uautoriseret. Kontroller venligst dit brugernavn og din adgangskode"
+}

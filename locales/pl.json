@@ -1,0 +1,9 @@
+{
+  "device": {
+    "settingsUpdated": "Zaktualizowano ustawienia, ponowne łączenie...",
+    "found": "Urządzenie znalezione, łączenie...",
+    "addressChanged": "Zmieniono adres urządzenia, ponowne łączenie...",
+    "lastSeenChanged": "Urządzenie nie jest już dostępne, ponowne łączenie..."
+  },
+  "unauthorised": "Nieautoryzowany. Sprawdź swoją nazwę użytkownika i hasło"
+}

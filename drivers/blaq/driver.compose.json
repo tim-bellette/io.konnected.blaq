@@ -1,0 +1,379 @@
+{
+  "name": {
+    "en": "Garage Door Opener blaQ",
+    "nl": "Garagedeur opener blaQ",
+    "de": "Garage Türöffner blaQ",
+    "fr": "Ouvre-porte de garage blaQ",
+    "it": "Apertura porta del garage blaQ",
+    "sv": "Garagedörröppnare blaQ",
+    "no": "Garasjeportåpner blaQ",
+    "es": "Abridor de puerta de garaje blaQ",
+    "da": "Garage døråbner blaQ",
+    "ru": "Открыватель гаражных ворот blaQ",
+    "pl": "Otwieracz drzwi garażowych blaQ",
+    "ko": "차고문 개폐기 blaQ"
+  },
+  "class": "garagedoor",
+  "capabilities": [
+    "garagedoor_closed",
+    "onoff",
+    "onoff.toggle_only",
+    "onoff.light",
+    "onoff.learn",
+    "measure_signal_strength",
+    "button.play_sound",
+    "button.pre_close_warning",
+    "button.re_sync",
+    "button.reset_door_timings",
+    "button.restart",
+    "button.factory_reset",
+    "windowcoverings_set",
+    "locked.remote",
+    "alarm_motion",
+    "alarm_generic.obstruction",
+    "alarm_running.motor",
+    "alarm_generic.not_synced",
+    "alarm_contact.wall_button",
+    "gdo_security_protocol"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "uiComponent": null
+    },
+    "onoff.toggle_only": {
+      "title": {
+        "en": "Toggle Only",
+        "nl": "Alleen schakelen",
+        "de": "Nur Umschalten",
+        "fr": "Basculer uniquement",
+        "it": "Solo commuta",
+        "sv": "Endast växla",
+        "no": "Kun bytte",
+        "es": "Solo alternar",
+        "da": "Kun skifte",
+        "ru": "Только переключение",
+        "pl": "Tylko przełączanie",
+        "ko": "토글만"
+      }
+    },
+    "onoff.light": {
+      "title": {
+        "en": "Garage Light",
+        "nl": "Garagelicht",
+        "de": "Garagenlicht",
+        "fr": "Lumière de garage",
+        "it": "Luce del garage",
+        "sv": "Garageljus",
+        "no": "Garasjelys",
+        "es": "Luz de garaje",
+        "da": "Garagelys",
+        "ru": "Свет в гараже",
+        "pl": "Światło w garażu",
+        "ko": "차고등"
+      }
+    },
+    "onoff.learn": {
+      "title": {
+        "en": "Learn",
+        "nl": "Leren",
+        "de": "Lernen",
+        "fr": "Apprendre",
+        "it": "Imparare",
+        "sv": "Lära",
+        "no": "Lære",
+        "es": "Aprender",
+        "da": "Lære",
+        "ru": "Изучить",
+        "pl": "Nauczyć się",
+        "ko": "학습"
+      }
+    },
+    "button.play_sound": {
+      "title": {
+        "en": "Play Sound",
+        "nl": "Geluid afspelen",
+        "de": "Ton abspielen",
+        "fr": "Jouer le son",
+        "it": "Riproduci suono",
+        "sv": "Spela ljud",
+        "no": "Spill av lyd",
+        "es": "Reproducir sonido",
+        "da": "Afspil lyd",
+        "ru": "Воспроизвести звук",
+        "pl": "Odtwórz dźwięk",
+        "ko": "사운드 재생"
+      }
+    },
+    "button.pre_close_warning": {
+      "title": {
+        "en": "Pre Close Warning",
+        "nl": "Voorafgaande sluitwaarschuwing",
+        "de": "Vor dem Schließen Warnung",
+        "fr": "Avertissement avant fermeture",
+        "it": "Avviso pre chiusura",
+        "sv": "Varning före stängning",
+        "no": "Forvarsel før lukking",
+        "es": "Advertencia antes de cerrar",
+        "da": "Advarsel før lukning",
+        "ru": "Предварительное предупреждение закрытия",
+        "pl": "Ostrzeżenie przed zamknięciem",
+        "ko": "닫기 전 경고"
+      }
+    },
+    "button.re_sync": {
+      "title": {
+        "en": "Re-Sync",
+        "nl": "Opnieuw synchroniseren",
+        "de": "Neu synchronisieren",
+        "fr": "Resynchroniser",
+        "it": "Risincronizza",
+        "sv": "Synkronisera om",
+        "no": "Synkroniser på nytt",
+        "es": "Re-sincronizar",
+        "da": "Synkroniser igen",
+        "ru": "Пересинхронизировать",
+        "pl": "Ponownie zsynchronizuj",
+        "ko": "재동기화"
+      },
+      "maintenanceAction": true
+    },
+    "button.reset_door_timings": {
+      "title": {
+        "en": "Reset Door Timings",
+        "nl": "Deurtijden resetten",
+        "de": "Türzeiten zurücksetzen",
+        "fr": "Réinitialiser les temps de porte",
+        "it": "Ripristina i tempi della porta",
+        "sv": "Återställ dörrtider",
+        "no": "Nullstill dørtider",
+        "es": "Restablecer tiempos de puerta",
+        "da": "Nulstil dørtider",
+        "ru": "Сброс времени двери",
+        "pl": "Resetuj czasy drzwi",
+        "ko": "문 타이밍 재설정"
+      },
+      "maintenanceAction": true
+    },
+    "button.restart": {
+      "title": {
+        "en": "Restart",
+        "nl": "Herstarten",
+        "de": "Neustarten",
+        "fr": "Redémarrer",
+        "it": "Riavvia",
+        "sv": "Starta om",
+        "no": "Omstart",
+        "es": "Reiniciar",
+        "da": "Genstart",
+        "ru": "Перезапустить",
+        "pl": "Uruchom ponownie",
+        "ko": "재시작"
+      },
+      "maintenanceAction": true
+    },
+    "button.factory_reset": {
+      "title": {
+        "en": "Factory Reset",
+        "nl": "Fabrieksinstellingen herstellen",
+        "de": "Werkseinstellungen zurücksetzen",
+        "fr": "Réinitialisation d'usine",
+        "it": "Ripristino delle impostazioni di fabbrica",
+        "sv": "Återställ fabriksinställningar",
+        "no": "Tilbakestill fabrikkinnstillinger",
+        "es": "Restablecimiento de fábrica",
+        "da": "Nulstil til fabriksindstillinger",
+        "ru": "Сброс до заводских настроек",
+        "pl": "Resetowanie do ustawień fabrycznych",
+        "ko": "공장 초기화"
+      },
+      "maintenanceAction": true
+    },
+    "locked.remote": {
+      "title": {
+        "en": "Remote Lock",
+        "nl": "Afstandsbediening slot",
+        "de": "Fernverriegelung",
+        "fr": "Verrouillage à distance",
+        "it": "Blocco remoto",
+        "sv": "Fjärrlås",
+        "no": "Fjernlås",
+        "es": "Bloqueo remoto",
+        "da": "Fjernlås",
+        "ru": "Дистанционная блокировка",
+        "pl": "Blokada zdalna",
+        "ko": "원격 잠금"
+      }
+    },
+    "alarm_generic.obstruction": {
+      "title": {
+        "en": "Obstruction",
+        "nl": "Belemmering",
+        "de": "Behinderung",
+        "fr": "Obstruction",
+        "it": "Ostruzione",
+        "sv": "Hinder",
+        "no": "Hindring",
+        "es": "Obstrucción",
+        "da": "Forhindring",
+        "ru": "Препятствие",
+        "pl": "Przeszkoda",
+        "ko": "장애물"
+      }
+    },
+    "alarm_running.motor": {
+      "title": {
+        "en": "Motor Running",
+        "nl": "Motor draait",
+        "de": "Motor läuft",
+        "fr": "Moteur en marche",
+        "it": "Motore in funzione",
+        "sv": "Motor igång",
+        "no": "Motor kjører",
+        "es": "Motor en funcionamiento",
+        "da": "Motor kører",
+        "ru": "Двигатель работает",
+        "pl": "Silnik działa",
+        "ko": "모터 작동 중"
+      }
+    },
+    "alarm_generic.not_synced": {
+      "title": {
+        "en": "Not Synced",
+        "nl": "Niet gesynchroniseerd",
+        "de": "Nicht synchronisiert",
+        "fr": "Non synchronisé",
+        "it": "Non sincronizzato",
+        "sv": "Inte synkroniserad",
+        "no": "Ikke synkronisert",
+        "es": "No sincronizado",
+        "da": "Ikke synkroniseret",
+        "ru": "Не синхронизировано",
+        "pl": "Niesynchronizowany",
+        "ko": "동기화되지 않음"
+      }
+    },
+    "alarm_contact.wall_button": {
+      "title": {
+        "en": "Wall Button",
+        "nl": "Wandknop",
+        "de": "Wandknopf",
+        "fr": "Bouton mural",
+        "it": "Pulsante da parete",
+        "sv": "Väggknapp",
+        "no": "Veggbryter",
+        "es": "Botón de pared",
+        "da": "Vægknap",
+        "ru": "Настенная кнопка",
+        "pl": "Przycisk ścienny",
+        "ko": "벽면 버튼"
+      }
+    }
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "lan"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "pair": [
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "options": {
+        "singular": true
+      },
+      "navigation": {
+        "next": "loading"
+      }
+    },
+    {
+      "id": "loading",
+      "template": "loading"
+    },
+    {
+      "id": "login_credentials",
+      "template": "login_credentials",
+      "options": {
+        "title": {
+          "en": "Login to your blaQ device",
+          "nl": "Log in op uw blaQ-apparaat",
+          "de": "Melden Sie sich bei Ihrem blaQ-Gerät an",
+          "fr": "Connectez-vous à votre appareil blaQ",
+          "it": "Accedi al tuo dispositivo blaQ",
+          "sv": "Logga in på din blaQ-enhet",
+          "no": "Logg inn på din blaQ-enhet",
+          "es": "Inicia sesión en tu dispositivo blaQ",
+          "da": "Log ind på din blaQ-enhed",
+          "ru": "Войдите в ваше устройство blaQ",
+          "pl": "Zaloguj się do swojego urządzenia blaQ",
+          "ko": "blaQ 장치에 로그인"
+        },
+        "usernameLabel": {
+          "en": "Username",
+          "nl": "Gebruikersnaam",
+          "de": "Benutzername",
+          "fr": "Nom d'utilisateur",
+          "it": "Nome utente",
+          "sv": "Användarnamn",
+          "no": "Brukernavn",
+          "es": "Nombre de usuario",
+          "da": "Brugernavn",
+          "ru": "Имя пользователя",
+          "pl": "Nazwa użytkownika",
+          "ko": "사용자 이름"
+        },
+        "usernamePlaceholder": {
+          "en": "username",
+          "nl": "gebruikersnaam",
+          "de": "benutzername",
+          "fr": "nom d'utilisateur",
+          "it": "nome utente",
+          "sv": "användarnamn",
+          "no": "brukernavn",
+          "es": "nombre de usuario",
+          "da": "brugernavn",
+          "ru": "имя пользователя",
+          "pl": "nazwa użytkownika",
+          "ko": "사용자 이름"
+        },
+        "passwordLabel": {
+          "en": "Password",
+          "nl": "Wachtwoord",
+          "de": "Passwort",
+          "fr": "Mot de passe",
+          "it": "Password",
+          "sv": "Lösenord",
+          "no": "Passord",
+          "es": "Contraseña",
+          "da": "Adgangskode",
+          "ru": "Пароль",
+          "pl": "Hasło",
+          "ko": "비밀번호"
+        },
+        "passwordPlaceholder": {
+          "en": "password",
+          "nl": "wachtwoord",
+          "de": "passwort",
+          "fr": "mot de passe",
+          "it": "password",
+          "sv": "lösenord",
+          "no": "passord",
+          "es": "contraseña",
+          "da": "adgangskode",
+          "ru": "пароль",
+          "pl": "hasło",
+          "ko": "비밀번호"
+        }
+      }
+    },
+    {
+      "id": "add_device"
+    }
+  ],
+  "discovery": "konnected_blaq"
+}

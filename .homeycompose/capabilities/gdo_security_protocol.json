@@ -1,0 +1,90 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Security Protocol",
+    "nl": "Beveiligingsprotocol",
+    "de": "Sicherheitsprotokoll",
+    "fr": "Protocole de sécurité",
+    "it": "Protocollo di sicurezza",
+    "sv": "Säkerhetsprotokoll",
+    "no": "Sikkerhetsprotokoll",
+    "es": "Protocolo de seguridad",
+    "da": "Sikkerhedsprotokol",
+    "ru": "Протокол безопасности",
+    "pl": "Protokół bezpieczeństwa",
+    "ko": "보안 프로토콜"
+  },
+  "uiComponent": "picker",
+  "getable": true,
+  "setable": true,
+  "values": [
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto",
+        "nl": "Automatisch",
+        "de": "Automatisch",
+        "fr": "Automatique",
+        "it": "Automatico",
+        "sv": "Automatisk",
+        "no": "Automatisk",
+        "es": "Automático",
+        "da": "Automatisk",
+        "ru": "Автоматически",
+        "pl": "Automatycznie",
+        "ko": "자동"
+      }
+    },
+    {
+      "id": "security+1.0",
+      "title": {
+        "en": "Security+1.0",
+        "nl": "Beveiliging+1.0",
+        "de": "Sicherheit+1.0",
+        "fr": "Sécurité+1.0",
+        "it": "Sicurezza+1.0",
+        "sv": "Säkerhet+1.0",
+        "no": "Sikkerhet+1.0",
+        "es": "Seguridad+1.0",
+        "da": "Sikkerhed+1.0",
+        "ru": "Безопасность+1.0",
+        "pl": "Bezpieczeństwo+1.0",
+        "ko": "보안+1.0"
+      }
+    },
+    {
+      "id": "security+1.0 with smart panel",
+      "title": {
+        "en": "Security+1.0 with smart panel",
+        "nl": "Beveiliging+1.0 met slim paneel",
+        "de": "Sicherheit+1.0 mit Smart Panel",
+        "fr": "Sécurité+1.0 avec panneau intelligent",
+        "it": "Sicurezza+1.0 con pannello intelligente",
+        "sv": "Säkerhet+1.0 med smart panel",
+        "no": "Sikkerhet+1.0 med smart panel",
+        "es": "Seguridad+1.0 con panel inteligente",
+        "da": "Sikkerhed+1.0 med smart panel",
+        "ru": "Безопасность+1.0 с умной панелью",
+        "pl": "Bezpieczeństwo+1.0 z inteligentnym panelem",
+        "ko": "보안+1.0 스마트 패널"
+      }
+    },
+    {
+      "id": "security+2.0",
+      "title": {
+        "en": "Security+2.0",
+        "nl": "Beveiliging+2.0",
+        "de": "Sicherheit+2.0",
+        "fr": "Sécurité+2.0",
+        "it": "Sicurezza+2.0",
+        "sv": "Säkerhet+2.0",
+        "no": "Sikkerhet+2.0",
+        "es": "Seguridad+2.0",
+        "da": "Sikkerhed+2.0",
+        "ru": "Безопасность+2.0",
+        "pl": "Bezpieczeństwo+2.0",
+        "ko": "보안+2.0"
+      }
+    }
+  ]
+}
