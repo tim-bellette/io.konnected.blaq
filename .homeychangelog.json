@@ -4,5 +4,8 @@
   },
   "1.0.1": {
     "en": "Updates to app description and images."
+  },
+  "1.0.2": {
+    "en": "bug fix to handle ui quick action"
   }
 }
