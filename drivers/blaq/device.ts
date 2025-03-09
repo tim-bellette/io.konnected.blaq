@@ -66,17 +66,31 @@ class Device extends KonnectedDevice {
    * @private
    */
   private registerGarageDoorSync() {
+    // OnOff capability
+    this.registerCapabilityListener(Capabilities.OnOff, async (value: boolean) => {
+      if (value) {
+        this.log('Use the "OnOff" capability to open the garage door');
+        await this.api.openGarageDoor();
+      } else {
+        this.log('Use the "OnOff" capability to close the garage door');
+        await this.api.closeGarageDoor();
+      }
+    });
+
     // Closed capability
     this.registerCapabilityListener(Capabilities.GarageDoor.Closed, async (value: boolean) => {
       if (!value) {
+        this.log('Use the "GarageDoor.Closed" capability to open the garage door');
         await this.api.openGarageDoor();
       } else {
+        this.log('Use the "GarageDoor.Closed" capability to close the garage door');
         await this.api.closeGarageDoor();
       }
     });
 
     // Window covering position capability
     this.registerCapabilityListener(Capabilities.GarageDoor.Position, async (value: number) => {
+      this.log('Use the "GarageDoor.Position" capability to set the garage door position.', value);
       await this.api.setGarageDoorPosition(value);
     });
 
