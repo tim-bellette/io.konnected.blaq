@@ -25,3 +25,44 @@ This local-first approach ensures low latency, enhanced reliability, and full co
 
 For more details, refer to the official API documentation at [Konnected API Docs](https://konnected.readme.io/reference/gdo-blaq-introduction).
 
+## Adding to Homey
+
+Follow these steps to add a blaQ Garage Door Opener to your Homey system:
+
+1. **Open the Homey App**  
+    Navigate to the "Add Device" section, type `Konnected` in the search bar, and select the Konnected Community app.  
+    <center>
+    <img src="docs/add_device.png" alt="Add Konnected Device" width="300" />
+    </center>
+
+2. **Select the Device Type**  
+    Choose `Garage Door Opener blaQ` from the list of available devices.
+
+3. **Initiate Discovery**  
+    Click `Connect`. The Konnected blaQ driver will search your Homey's local network for devices broadcasting the Multicast-DNS Service Discovery with a `project_name` prefix of `konnected.garage-door` and `web_api` set to `true`.  
+    For more details, refer to the [Discovery via mDNS](https://konnected.readme.io/reference/introduction-1#discovery-via-mdns) section in the Konnected documentation.  
+    ℹ️ **Note:**  
+    - Ensure the Web API function is enabled on your device.  
+    - Verify that your network allows mDNS broadcasts to reach your Homey.  
+    - Devices already added will not appear in the discovery list until removed.  
+    <center>
+    <img src="docs/add_blaq.png" alt="Add blaQ Device" width="200" />
+    </center>
+
+4. **Select Your Device**  
+    From the list of discovered devices, select the one you want to add. The default name will be the broadcasted friendly name in the format `GDO blaQ {shortened MAC address}` (e.g., `GDO blaQ 1234fc`).
+
+5. **Proceed with Configuration**  
+    Click `Continue` to proceed.
+
+6. **Enter Credentials (if applicable)**  
+    If your device's Web API is password-protected (recommended), you will be prompted to enter the username and password.  
+    If the API is not secured, this step will be skipped.  
+    <center>
+    <img src="docs/api_creds.png" alt="Enter Username and Password" width="200" />
+    </center>
+
+7. **Complete the Setup**  
+    Once the configuration is complete, your blaQ Garage Door Opener will be successfully added to Homey.
+
+You’re all set!
