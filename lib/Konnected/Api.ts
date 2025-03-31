@@ -198,7 +198,14 @@ export class Api extends TypedEmitter<IAllEvents> {
       return; // no data to process
     }
 
-    const data: BasePayload = JSON.parse(event.data);
+    let data: BasePayload;
+
+    try {
+      data = JSON.parse(event.data);
+    } catch (e) {
+      this.emit(ApiEvents.Error, new Error(`Failed to parse event data.\nError: ${e}\nData: ${event.data}`));
+      return;
+    }
 
     switch (data.id) {
       case DeviceEvents.GarageDoorCover:
