@@ -7,5 +7,8 @@
   },
   "1.0.2": {
     "en": "bug fix to handle ui quick action"
+  },
+  "1.0.3": {
+    "en": "fix: add error handling when device pushes invalid JSON"
   }
 }
